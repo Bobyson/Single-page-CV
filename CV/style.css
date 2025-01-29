@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 header {
-    max-width: 800px;
+    max-width: 920px;
     margin: 20px auto;
     padding: 20px 10px;
 }
@@ -25,7 +25,7 @@ header address {
     margin-top: 10px;
 }
 main {
-    max-width: 800px;
+    max-width: 920px;
     margin: 20px auto;
     padding: 20px;
     background-color: white;
@@ -37,6 +37,18 @@ section {
     padding-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
+
+#skills-education {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add spacing between columns */
+}
+
+.column {
+    width: 48%; /* Adjust width to fit side by side */
+}
+
+
 section:last-child {
     border-bottom: none;
     margin-bottom: 0;
